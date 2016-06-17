@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- for Google -->
+    <meta name="description" content="">
+    <meta name="author" content="Buddy">
+    <meta name="keywords" content="" />
+    <meta name="copyright" content="" />
+    <meta name="application-name" content="Buddy" />
+
+    <title>Buddy | Property Management System </title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="ico/favicon.ico"/>
+
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" async>
+     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Animations CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+
+    <!-- Custom CSS -->
+    <link href="css/landing.css" rel="stylesheet">
+   
+    
+
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div class="tranparent-header">
+  <style>
+  .fade {
+  opacity: 0;
+  -webkit-transition: opacity 1s linear;
+  transition: opacity .30s linear;
+  }
+</style>
+
+<header class="borderBottom">
+<div id="one"></div>
+<a class="navbar-brand" href="/">
+    <img src="images/logo-header.png"></img></a>
+<nav id="cd-top-nav">
+    <ul>
+        <li class="hiring-bold"><a href="index.html">Home</a></li>
+        <li><a href="#">PMS Guide</a></li>
+        <li><a href="channel-management.html" target="_blank">Channel Managment</a></li>
+        <li><a href="price.html">Price</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#buddySignup">Sign up</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#login">Login</a></li>
+    </ul>
+</nav>
+<a id="cd-menu-trigger" href="#0"><span class="cd-menu-icon"></span></a>
+</header>
+
+    <nav id="cd-lateral-nav">
+        <ul class="cd-navigation links">
+            <li class="top-link hidden-md"><a href="index.html">home</a></li>
+            <li class="hidden-md"><a href="#" class="hiring-bold">PMS Guide</a></li>
+            <li class="hidden-md"><a target="_blank" href="channel-management.html">Channel Management</a></li>
+            <li class="hidden-md"><a href="price.html">Price</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#buddySignup">Sign up</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#login">Login</a></li>
+
+        </ul>
+        
+    </nav>
+</div>
+
+
+<!-- Login Modal Starts-->
+<div class="modal fade login-modal-sm down" id="login" tabindex="-1" role="dialog" aria-labelledby="buddyLogin">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title header-bg" id="login"><center><img src="images/logo-header.png" width="120"/></center></h3>
+      </div>
+      <div class="modal-body">
+            <form class="form-inline" action="" name="signIn" method="post">
+            <div class="row">
+                <label for="fname" class="col-md-4 col-sm-12">User Name</label>
+                <input type="text" class="form-control col-md-8 col-sm-12 signIn-box" id="fname" placeholder="Jane Doe" required="">
+            </div><div class="clearfix"></div>
+            <div class="row">
+              <label for="password" class="col-md-4 col-sm-12">Password</label>
+              <input type="password" class="form-control col-md-8 col-sm-12 signIn-box" id="password" placeholder="********" required="">
+            </div>
+       
+      </div>
+      <div class="modal-footer">
+      <button type="submit" class="btn btn-info btn-block signIn-btn">Login</button>
+      </div></form>
+    </div>
+  </div>
+</div>
+
+<!-- Login modal end-->
+
+
+
+
+
+<!-- Sign up Modal Starts-->
+<div class="modal fade login-modal-sm down" id="buddySignup" tabindex="-1" role="dialog" aria-labelledby="buddySignup">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title header-bg" id="buddySignup">Lets get you started </h3>
+      </div>
+      <div class="modal-body">
+            <form class="form-inline" action="" name="signUp" method="post">
+            <div class="row">
+                <label for="fistName" class="col-md-4 col-sm-12">First Name*</label>
+                <input type="text" class="form-control col-md-8 col-sm-12 signIn-box" id="fistName" placeholder="Jane Doe" required="">
+            </div><div class="clearfix"></div>
+            <div class="row">
+              <label for="hostelName" class="col-md-4 col-sm-12">Hostel Name*</label>
+              <input type="text" class="form-control col-md-8 col-sm-12 signIn-box" id="hostelName" placeholder="Hostel Name" required="">
+            </div><div class="clearfix"></div>
+             <div class="row">
+              <label for="email" class="col-md-4 col-sm-12">Email*</label>
+              <input type="email" class="form-control col-md-8 col-sm-12 signIn-box" id="email" placeholder="janedoe@gmail.com" required="">
+            </div><div class="clearfix"></div>
+             <div class="row">
+              <label for="city" class="col-md-4 col-sm-12">City*</label>
+              <input type="text" class="form-control col-md-8 col-sm-12 signIn-box" id="city" placeholder="City" required="">
+            </div><div class="clearfix"></div>
+             <div class="row">
+              <label for="country" class="col-md-4 col-sm-12">Country*</label>
+              <input type="text" class="form-control col-md-8 col-sm-12 signIn-box" id="country" placeholder="Country" required="">
+            </div><div class="clearfix"></div>
+             <div class="row">
+              <label for="number" class="col-md-4 col-sm-12">Contact*</label>
+              <input type="number" class="form-control col-md-8 col-sm-12 signIn-box" id="number" placeholder="Number" required="">
+            </div><div class="clearfix"></div>
+             <div class="row">
+              <label for="Language" class="col-md-4 col-sm-12">Language*</label>
+              <input type="text" class="form-control col-md-8 col-sm-12 signIn-box" id="contact" placeholder="Language" required="">
+            </div><div class="clearfix"></div>
+             <div class="row">
+              <label for="dob" class="col-md-4 col-sm-12">Birth Date*</label>
+              <input type="text" class="form-control col-md-8 col-sm-12 signIn-box" id="dob" placeholder="mm/dd/yyyy" required="">
+            </div>
+       
+      </div>
+      <div class="modal-footer">
+      <button type="submit" class="btn btn-info btn-block signIn-btn">Sign Up</button>
+      </div></form>
+    </div>
+  </div>
+</div>
+
+<!-- Sign modal end-->
+
+
+           <section>
+              <div class="container constant-padding">
+                  <div class="row">
+                  <div class="col-md-12">
+                 <h1 class="text-center text-top">FAQ's</h1>
+                 <h2 class="text-orange">General</h2>
+                 <h3 class="text-red">Lorem Ipsum</h3>
+                
+                    <p>
+Donec sodales sagittis magna. Sed consequat Donec sodales sagittis magna. Sed consequat Donec sodales sagittis magna. Sed consequat</p>
+      
+
+
+                  </div>
+                  </div>
+              </div>
+           </section>
+
+
+        
+ <!-- Footer section -->
+        <section class="footer-links">
+  <div class="container constant-padding">
+    <div class="row">
+   <div class="fLogo col-md-4 col-md-offset-5"><img class="logo" src="images/logo.png"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p> Get in touch with us and we will work together on implementation and support for any issues you may have. Write us at techbuddy2016@gmail.com</p>
+      </div>
+    </div>
+    <!-- For desktop -->
+    <div class="row hidden-xs">
+      <div class="col-md-4 col-sm-3 text-center">
+        <ul>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+          <li><a href="price.html">Prices</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-3 text-center">
+        <ul>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-md-4 col-sm-3 text-center">
+        <ul>
+          <li><a href="mailto:info@buddy.com"><i class="fa fa-envelope"></i>&nbsp;techbuddy2016@gmail.com</a></li>
+          <li><a href="tel:+91 91-72-313994"><i class="fa fa-phone"></i>&nbsp;+91 91-72-313994</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- For small screens -->
+    <div class="row hidden-sm hidden-md hidden-lg">
+      <div class="col-xs-6">
+        <ul>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+          <li><a href="price.html">Price</a></li>
+          <li><a href="mailto:info@gmail.com"><i class="fa fa-envelope"></i>&nbsp;techbuddy2016@gmail.com</a></li>
+          <li><a href="tel:+91 91-72-313994"><i class="fa fa-phone"></i>&nbsp;+91 91-72-313994</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6">
+        <ul>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+    <ul class="social-media">
+    <li class="social">
+        <a class="first-icon instagram" href="#" target="_blank">
+            <i title="Follow us on Instagram" class="grofers-social-icon fa fa-instagram"></i>
+        </a>
+        <a class="facebook" href="#" target="_blank">
+            <i title="Like us? Share on Facebook!" class="grofers-social-icon fa fa-facebook"></i>
+        </a>
+        <a class="twitter" target="_blank" href="#">
+            <i title="Follow us on Twitter" class="grofers-social-icon fa fa-twitter"></i>
+        </a>
+        <a class="linkedin" target="_blank" href="#">
+            <i title="LinkedIn" class="grofers-social-icon fa fa-linkedin"></i>
+        </a>
+    </li>
+  </ul>
+  <h5 class="text-center"> Buddy - All Rights Reserved
+  </h5>
+  </div>
+  </div>
+  </div>
+</section>
+    </main>
+
+    <script type="text/javascript" async src="js/scripts.min.js"></script>
+
+    <!-- endbuild -->
+  </body>
+</html>
+

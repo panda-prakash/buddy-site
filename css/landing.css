@@ -1,0 +1,459 @@
+
+.cover .inner, .products {
+    text-align: center;
+}
+body {
+    padding-top: 0 !important;
+}
+section {
+    padding: 36px 0;
+}
+.cover .outer {
+    background-position: center center;
+    background-size: cover;
+    border-bottom: 1px solid #eee;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.cover .inner {
+   /* background-color: rgba(0, 0, 0, 0.1);*/
+    background-size: cover;
+    color: #fff;
+    display: table-cell;
+    height: 60vh;
+    vertical-align: middle;
+}
+.cover .inner h5 b, .locations .full-city-list-expander {
+    color: #e96125;
+}
+.cover .inner h1 {
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-family: century gothic,sans-serif
+}
+.cover .inner h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin: -5px 0 30px;
+}
+.cover .inner h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin: -152px 0 0;
+}
+.cover .inner h6 {
+    font-size: 11px !important;
+    margin-bottom: 40px;
+}
+.cover .inner .grofers20 {
+    font-weight: 600;
+}
+.download-app-btns img {
+    padding: 0 5px;
+    width: 161px;
+}
+.download-app-btns a:hover {
+    opacity: 0.8;
+}
+.scroll-down {
+    left: 49%;
+}
+.products ul {
+    margin-top: 80px;
+}
+.products ul li {
+    width: 224px;
+}
+.products img {
+    height: 65px;
+}
+.way-you-shop-points {
+    background-color: #f8f8f8;
+}
+.way-you-shop-points h1 {
+    margin-top: 10px;
+    text-align: left;
+}
+.way-you-shop-points h4 {
+    text-align: left;
+}
+.way-you-shop-points img {
+    width: 300px;
+}
+.way-you-shop-points .right {
+    float: right;
+}
+.way-you-shop-points .mrgn-btm {
+    margin-bottom: 5px;
+}
+.quick-delivery {
+    padding: 118px 0 90px;
+    position: relative;
+}
+.quick-delivery .subheading {
+    margin-bottom: 80px !important;
+}
+.quick-delivery .sun {
+    background: rgba(0, 0, 0, 0) url("../../images/quick-delivery/sun.png") no-repeat scroll 0 0;
+    bottom: 53%;
+    height: 50px;
+    left: 9%;
+    position: absolute;
+    width: 56px;
+}
+.quick-delivery .bg {
+    background: rgba(0, 0, 0, 0) url("../../images/quick-delivery/bg.png") repeat-x scroll 0 0;
+    display: block;
+    height: 166px;
+    margin-top: 0;
+}
+.quick-delivery .road {
+    background: rgba(0, 0, 0, 0) url("../../images/quick-delivery/road.png") repeat-x scroll 0 0;
+    bottom: 32px;
+    display: block;
+    height: 20px;
+    position: absolute;
+    width: 100%;
+}
+.quick-delivery .delivery-boy img {
+    bottom: 7.2%;
+    left: 42%;
+    position: absolute;
+    width: 175px;
+}
+.tweets {
+    background-color: #f8f8f8;
+    display: none;
+}
+.tweets .other-text {
+    margin: 20px auto 100px;
+    max-width: 500px;
+    text-align: center;
+}
+.locations {
+    border-top: 1px solid #eee;
+    padding: 100px 0 118px;
+    text-align: center;
+}
+.owl-carousel .item .city-picture {
+    height: 72px;
+    margin: 0 auto 1rem;
+    width: 72px;
+}
+.locations #city-slider {
+    margin: -50px 0 60px;
+    overflow: hidden;
+    padding: 0 50px;
+    position: relative;
+}
+.locations #city-slider a.button {
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    width: 32px;
+}
+.locations #city-slider a.button.prev {
+    left: 0;
+}
+.locations #city-slider a.button.next {
+    right: 0;
+}
+.locations .full-city-list {
+    border-top: 1px solid #eee;
+    color: #666;
+    display: none;
+    font-size: 16px;
+    margin: 2em auto 0;
+    padding: 0;
+}
+.locations .full-city-list ul {
+    float: left;
+    list-style-type: none;
+    margin: 2em 1em 0 0;
+    text-align: left;
+    width: 28%;
+}
+.locations .full-city-list ul.third-list {
+    width: 25%;
+}
+.locations .full-city-list ul.fourth-list {
+    width: 10%;
+}
+.locations .full-city-list ul li {
+    font-size: 14px;
+    padding: 8px 0;
+}
+.locations .owl-carousel {
+    height: 180px;
+}
+.locations .owl-carousel .owl-stage-outer {
+    height: 100%;
+}
+.locations .owl-carousel .owl-stage-outer .owl-stage {
+    top: 50px;
+}
+.locations .owl-carousel .item .city-picture {
+    height: 72px;
+    width: 72px;
+}
+.download-app {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 118px 0 215px;
+    position: relative;
+    text-align: center;
+}
+.download-app h1.heading {
+    color: #fff;
+}
+.download-app h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.download-app h3 b.regular {
+    font-weight: 500;
+}
+.download-app .phone-input {
+    padding-top: 3em;
+}
+.download-app .intl-tel-input {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    display: inline-block;
+    font-weight: 400;
+    height: 48px;
+    padding: 5px;
+    vertical-align: middle;
+    width: 214px;
+}
+.download-app .intl-tel-input div {
+    display: block;
+    float: left;
+}
+.download-app .intl-tel-input input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 400;
+    height: 27px;
+    outline: 0 none;
+    padding-top: 10px;
+    width: 204px;
+}
+.download-app #get-app-button {
+    background-color: #e96125;
+    border: 1px solid #e96125;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 400;
+    height: 48px;
+    margin-left: -4px;
+    outline: 0 none;
+    padding: 6px 0;
+    vertical-align: middle;
+    width: 105px;
+}
+.download-app .download-app-btns {
+    bottom: 29%;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.fixedPosition {
+    bottom: 26% !important;
+    position: absolute !important;
+}
+.download-app h3 a {
+    color: #fff;
+    font-size: 12px;
+}
+.error-msgs {
+    color: #fff;
+    font-weight: 400;
+    left: 0;
+    padding: 8px 10px;
+    position: absolute;
+    right: 0;
+}
+.error-msgs a {
+    color: #fff;
+    text-decoration: underline;
+}
+.extra-stuff {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border-bottom: 1px solid #eee;
+    padding: 40px 0 30px;
+}
+.extra-stuff p {
+    color: #666;
+    font-weight: 500;
+    line-height: 1.6em;
+    text-align: center;
+}
+@media only screen and (max-width: 980px) {
+.products ul li {
+    width: 100px;
+}
+}
+@media only screen and (max-width: 769px) {
+section {
+    padding: 50px 0 60px;
+}
+section .constant-padding {
+    padding: 0 15px;
+}
+.mobile-products h4 {
+    font-size: 12px !important;
+    margin-bottom: 30px;
+}
+.mobile-products .pdng0 {
+    padding: 0 !important;
+}
+.cover .outer {
+    background: url("../images/footer-bg.png") no-repeat;
+}
+.cover .inner {
+    height: 80vh;
+}
+.cover .inner h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.cover .inner h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.cover .inner h5 {
+    font-size: 14px;
+    margin: 25px 0 10px;
+    padding: 0 15px;
+}
+.quick-delivery {
+    padding: 50px 0 60px;
+}
+.quick-delivery .subheading {
+    margin-bottom: 50px !important;
+}
+.quick-delivery .bg {
+    background: rgba(0, 0, 0, 0) url("../../images/quick-delivery/bg_small.png") repeat scroll 0 0;
+    height: 104px;
+}
+.quick-delivery .sun {
+    background-size: 70% auto;
+    bottom: 40%;
+    left: 11%;
+}
+.quick-delivery .road {
+    bottom: 17px;
+}
+.quick-delivery .delivery-boy img {
+    bottom: 7.2%;
+    left: 38%;
+    width: 20%;
+}
+.download-app-btns img {
+    width: 120px;
+}
+.way-you-shop-points {
+    padding: 80px 0 30px;
+    text-align: center;
+}
+.way-you-shop-points h1, .way-you-shop-points h4 {
+    text-align: center;
+}
+.way-you-shop-points h1.heading {
+    margin-top: 40px;
+}
+.way-you-shop-points .mrgn-btm {
+    margin-bottom: 35px;
+}
+.locations #city-slider {
+    margin: -20px 0 20px;
+}
+.locations .full-city-list {
+    font-size: 12px;
+}
+.locations .full-city-list ul {
+    width: 40%;
+}
+.locations .full-city-list ul.third-list {
+    width: 0;
+}
+.locations .full-city-list ul li {
+    font-size: 12px;
+    padding: 5px 0;
+}
+.download-app {
+    padding: 50px 0 100px;
+}
+.download-app h3 {
+    font-size: 14px;
+    line-height: 1.7em;
+    margin-top: 10px;
+}
+.download-app .phone-input {
+    padding-top: 2em;
+}
+.download-app .intl-tel-input {
+    height: 40px;
+    width: 150px !important;
+}
+.download-app .intl-tel-input input {
+    font-size: 13px;
+    padding-top: 5px;
+}
+.download-app #get-app-button {
+    height: 40px;
+    width: 92px;
+}
+.download-app .download-app-btns {
+    bottom: 17%;
+}
+.fixedPosition {
+    bottom: 13% !important;
+}
+.error-msgs {
+    font-size: 12px;
+}
+.rmv-pdng {
+    padding: 0;
+}
+}
+@media only screen and (max-width: 480px) {
+.way-you-shop-points img {
+    width: 90%;
+}
+.locations .full-city-list {
+    padding: 0;
+}
+.locations .full-city-list ul {
+    width: 34%;
+}
+.cover .inner {
+    height: 385px;
+}
+}
+@media only screen and (max-width: 345px) {
+.fixedPosition {
+    bottom: 8% !important;
+}
+.error-msgs {
+    bottom: -13%;
+    line-height: 1.2em;
+}
+}
