@@ -6744,7 +6744,7 @@ h1.mobile-heading {
 }
 .tranparent-header header a.navbar-brand {
     background: rgba(0, 0, 0, 0) url("../images/logo-header.png") no-repeat scroll center center / cover ;
-    height: 32px;
+    height: 35px;
     margin-left: 10px;
     margin-top: 12px;
     width: 128px;
