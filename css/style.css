@@ -7439,3 +7439,21 @@ footer {
     padding: 5px 0;
 }
 }
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1366px){
+
+.cover .inner h5{
+
+    margin: -129px 0 0!important;
+    font-size: 14px;
+}
+
+.cover .inner h1 {
+
+    font-size:30px!important;
+}
+
+
+
+    }
