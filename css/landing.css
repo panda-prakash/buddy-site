@@ -9,6 +9,7 @@ section {
     padding: 36px 0;
 }
 .cover .outer {
+   /* background-image: url("../images/baner-bg-mobile.png") !important;*/
     background-position: center center;
     background-size: cover;
     border-bottom: 1px solid #eee;
@@ -439,6 +440,12 @@ section .constant-padding {
 .rmv-pdng {
     padding: 0;
 }
+
+.img-baner{
+
+     max-width: 100%;
+    height: auto;
+}
 }
 @media only screen and (max-width: 480px) {
 .way-you-shop-points img {
@@ -453,6 +460,13 @@ section .constant-padding {
 .cover .inner {
     height: 385px;
 }
+
+.img-baner{
+
+     max-width: 100%;
+    height: auto;
+}
+
 }
 @media only screen and (max-width: 345px) {
 .fixedPosition {
@@ -462,4 +476,11 @@ section .constant-padding {
     bottom: -13%;
     line-height: 1.2em;
 }
+
+.img-baner{
+
+     max-width: 100%;
+    height: auto;
+}
+
 }

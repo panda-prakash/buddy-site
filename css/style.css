@@ -7369,6 +7369,12 @@ hr {
 nav#cd-lateral-nav .links li {
     height: 40px;
 }
+.img-baner{
+
+     max-width: 100%;
+    height: auto;
+
+}
 #cd-lateral-nav .cd-navigation {
     margin: 0 32px;
 }
@@ -7432,12 +7438,20 @@ footer {
 .footer-links {
     padding: 30px 0 20px;
 }
+
 .footer-links p, .footer-links ul li a {
     font-size: 12px;
 }
 .footer-links ul li {
     padding: 5px 0;
 }
+.img-baner{
+
+     max-width: 100%;
+    height: auto;
+
+}
+
 }
 
 
