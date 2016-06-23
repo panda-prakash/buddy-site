@@ -335,7 +335,7 @@ section .constant-padding {
     background: url("../images/footer-bg.png") no-repeat;
 }
 .cover .inner {
-    height: 80vh;
+    /*height: 2vh;*/
 }
 .cover .inner h1 {
     font-size: 26px;
