@@ -6689,7 +6689,7 @@ h1.heading {
 .small-text{font-size: 15px;}
 
 .subheading {
-    margin: 20px auto 100px;
+    margin: 5px auto;
     max-width: 520px;
     text-align: center;
 }
@@ -7468,6 +7468,10 @@ footer {
     font-size:30px!important;
 }
 
-
-
     }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) 
+{
+
+
+}
