@@ -23,12 +23,7 @@ section {
 .cover-ht{margin-top:60px;}
 
 .fig-text{ 
-    color: #fff;
-    left: 40%;
-    position: fixed;
-    text-align: center;
-    top: 8%;
-    margin-top:95px;
+   text-align: center;
 }
 
 .cover .inner {
