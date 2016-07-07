@@ -109,6 +109,9 @@ input[type="checkbox"], input[type="radio"] {
 td, th {
     padding: 0;
 }
+
+.cover-texth2{font-size: 18px;}
+
 @media print {
 blockquote, img, pre, tr {
     page-break-inside: avoid;
