@@ -178,6 +178,9 @@ select {
 .img-thumbnail, body {
     background-color: #fff;
 }
+.space-top-20{margin-top:20px;}
+
+.text-black > p > a{color: #000;}
 
 .fLogo > img{left:0; right:0;}
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,600,600italic,700);
